@@ -20,7 +20,6 @@ public class linkedHasSet {
 		LinkedHashSet<Integer> L2 = new LinkedHashSet();
 		Scanner sc = new Scanner(System.in);  
 	    System.out.println("Enter value: ");
-
 	    String userName = sc.nextLine();  
 	    		
 	}
