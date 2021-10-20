@@ -72,10 +72,11 @@ public class synchronisedMethod {
 		thread3 T3 = new thread3(ops);
 		thread4 T4 = new thread4(ops);
 		
-		T2.setName("Be to print 1st ---> T2");
-		T4.setName("Be to print 2nd ---> T4");
-		T1.setName("Be to print 3rd ---> T1");
-		T3.setName("Be to print 4th ---> T3");
+		//Sequence as per question's demand
+		T2.setName("Print 1st ---> T2");
+		T4.setName("Print 2nd ---> T4");
+		T1.setName("Print 3rd ---> T1");
+		T3.setName("Print 4th ---> T3");
 		
 		T2.start();
 		T4.start();
