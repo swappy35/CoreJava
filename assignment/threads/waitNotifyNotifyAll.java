@@ -3,7 +3,9 @@ package assignment.threads;
 class Bank{
 	int Balance = 10000;
 	
+			
 	synchronized void Deposit(int D){
+		System.out.println("++++++++++++++ Current Balance= "+Balance+" ++++++++++++++");
 		System.out.println("Money Deposition in Process...");  
 		this.Balance+=D;
 		System.out.println("++++++++++++++Deposition Successful+++++++++++++++++"
@@ -25,12 +27,11 @@ class Bank{
 				System.err.println(E);
 			}
 		}
-		else{
-			this.Balance-=W;
-			System.out.println("++++++++++++++ Withdraw Successful ++++++++++++++"
-					+ "\nCurrent Balance= "+this.Balance+" :::::: Amount Withdrawn= "+W+
-					"\n++++++++++++++Visit again ++++++++++++++");
-		}
+		this.Balance-=W;
+		System.out.println("++++++++++++++ Withdraw Successful ++++++++++++++"
+				+ "\nCurrent Balance= "+this.Balance+" :::::: Amount Withdrawn= "+W+
+				"\n++++++++++++++Visit again ++++++++++++++");
+
 	}
 }
 
