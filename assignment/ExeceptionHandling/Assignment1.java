@@ -8,8 +8,8 @@ public class Assignment1 {
 			  throw new SalaryException("Your salary is somehow good");
 		     if(salary>5000 && salary<=9000)  
 		      System.out.println("Salary is very good");  
-//		     else
-//		    	 System.out.println("Invalid salary entered");  
+		     else
+		    	 System.out.println("Invalid salary entered");  
 		   }  
 		     
 		   public static void main(String args[]){  
