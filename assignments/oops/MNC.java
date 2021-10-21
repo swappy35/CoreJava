@@ -1,6 +1,6 @@
 package assignments.oops;
 
-public abstract class assignment2_MNC {
+public abstract class MNC {
 	public abstract void location();
 	public abstract void headOffice();
 	
@@ -12,4 +12,3 @@ public abstract class assignment2_MNC {
 	}
 	//public void normalMethod2();
 }
-
